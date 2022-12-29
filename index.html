@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="child_icon" onclick="parentClick()">
+        <div id="mainDiv">
+            Features
+        </div>
+        <img src="./arrow_drop_down_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+    </div>
+    <div id="afterParentDiv">
+      <div class="childDiv">
+        <div class="innerDiv" onclick="handleClick()">
+          <div class="child_icon">
+            <span id="firstOrder">Resident</span>
+            <img src="./arrow_drop_down_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+          </div>
+          <div id="childDropDown">
+            <div>Visitor Management System</div>
+            <div>Domestic Staff Management</div>
+            <div>Communication Management</div>
+            <div>Maintenance and Utility Bill Payment</div>
+            <div>Safety</div>
+          </div>
+        </div>
+        <div class="innerDiv" onclick="handleClick_1()">
+          <div class="child_icon">
+            <span>Management</span>
+            <img src="./arrow_drop_down_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+          </div>
+          <div id="childDropDown_1">
+                    <div>Accounting and Billing Solution</div>
+                    <div>Maintenance and Utility Bill Payments</div>
+                    <div>Residents and Apartments Management</div>
+                    <div>Complaint Management</div>
+                    <div>Digitised Communication</div>
+                    <div>Manage Staff and Vendors</div>
+                </div>
+        </div>
+        <div class="innerDiv" onclick="handleClick_2()">
+          <div class="child_icon">
+            <span>Security Guard</span>
+            <img src="./arrow_drop_down_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+          </div>
+          <div id="childDropDown_2">
+            <div>Visitor Management</div>
+            <div>Services and Staff Entries/Exits</div>
+            <div>User-friendly and Intuitive Guard App</div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js" type="text/javascript"></script>
+</html>
